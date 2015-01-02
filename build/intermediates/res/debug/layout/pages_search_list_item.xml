@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/search" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/search" />
+
+        <ImageView
+            android:id="@+id/Page_list_item_coverimgIv"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/post_image_ride" />
+
+        <ImageView
+            android:id="@+id/Page_list_item_pageImg_IV"
+            android:layout_width="70dp"
+            android:layout_height="90dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ppofpage_image_search" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="120dp"
+            android:layout_weight=".5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Page_list_item_profieName_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Besceletta "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Page_list_item_location_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ride page"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#999999" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout><!-- From: file:/F:/workspace/android/GO_NOW_THE_PROJECT/res/layout/pages_search_list_item.xml -->

@@ -1,0 +1,16 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RidesTab_SwipeToRefresh"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/ridesTab_RidesLV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:divider="@android:color/transparent" >
+    </ListView>
+
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GO NOW</string>
+    <string name="app_id">322332057946402</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_store">Store</string>
+    <string name="title_activity_store_bike_page">Store_bike_page</string>
+    <string name="title_activity_rides_tab">Rides_tab</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_sign_in_up">GO NOW</string>
+    <string name="title_activity_sign_up">Register</string>
+    <string name="title_activity_sign_in">Login</string>
+    <string name="title_activity_ride">Ride</string>
+    <string name="title_activity_home"></string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_splash">GO NOW</string>
+
+    <string-array name="home_drawer_items">
+        <item>Session</item>
+        <item>Store</item>
+        <item>People</item>
+        <item>Messages</item>
+        <item>Settings</item>
+        <item>About</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="home_drawer_icons">
+        <item>@drawable/session_icon_sidemenu</item>
+        <item>@drawable/store_icon_sidemenu</item>
+        <item>@drawable/people_icon_sidemenu</item>
+        <item>@drawable/messages_icon_sidemenu</item>
+        <item>@drawable/settings_icon_sidemenu</item>
+        <item>@drawable/about_icon_sidemenu</item>
+        <item>@drawable/logout_icon_sidemenu</item>
+    </string-array>
+
+    <string name="title_activity_create_page">Create page</string>
+    <string name="title_activity_create_event">Create event</string>
+    <string name="title_activity_page_list">PageList</string>
+    <string name="title_activity_page">Page</string>
+    <string name="title_activity_search_page">SearchPage</string>
+    <string name="title_activity_people_fragment">PeopleFragment</string>
+    <string name="title_activity_pages_fragment">PagesFragment</string>
+    <string name="title_activity_page_more_info">Page_more_info</string>
+    <string name="title_activity_page_search">Search</string>
+    <string name="title_activity_session">Session</string>
+    <string name="title_activity_session_count_down">SessionCountDown</string>
+    <string name="title_activity_ride_add_post">Add Post</string>
+    <string name="title_activity_page_add_post">Add Post</string>
+    <string name="title_activity_store_add_new_bike">Add New</string>
+    <string name="title_activity_session_fragment">SessionFragment</string>
+    <string name="title_activity_event_route">Route</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_people_search">People</string>
+    <string name="title_activity_messages">Message</string>
+    <string name="title_activity_chat_list">Chat</string>
+
+</resources>

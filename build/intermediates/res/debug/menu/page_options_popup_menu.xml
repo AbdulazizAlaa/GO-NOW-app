@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/page_menu_item_share"
+        android:showAsAction="always"
+        android:title="Share"/>
+    <item
+        android:id="@+id/page_menu_item_createPage"
+        android:showAsAction="always"
+        android:title="Create Page"/>
+    <item
+        android:id="@+id/page_menu_item_createEvent"
+        android:showAsAction="always"
+        android:title="Create Event"/>
+    <item
+        android:id="@+id/page_menu_item_report"
+        android:showAsAction="always"
+        android:title="Report"/>
+
+</menu><!-- From: file:/F:/workspace/android/GO_NOW_THE_PROJECT/res/menu/page_options_popup_menu.xml -->

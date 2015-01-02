@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:test_bike="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_image_login"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".2"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical" >
+
+        <com.andreabaccega.widget.FormEditText
+            android:id="@+id/sign_in_username_ED"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/login_textfield_background"
+            android:ems="10"
+            android:hint="Username"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            test_bike:customRegexp="^[a-z0-9_-]{3,16}$"
+            test_bike:emptyErrorString="Username Field Can Not be Empty!!"
+            test_bike:testErrorString="must be {a-z or 0-9 or _-}, no Spaces and from 3-16 character"
+            test_bike:testType="regexp" />
+
+        <com.andreabaccega.widget.FormEditText
+            android:id="@+id/sign_in_password_ED"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_textfield_background"
+            android:ems="10"
+            android:hint="Password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            test_bike:customRegexp="^[a-z0-9_-]{3,18}$"
+            test_bike:emptyErrorString="Password Field Can Not be Empty!!"
+            test_bike:testErrorString="must be {a-z or 0-9 or _-}, no Spaces and from 3-18 character"
+            test_bike:testType="regexp" />
+
+        <Button
+            android:id="@+id/sign_in_signin_B"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/login_button_loginform_selector"
+            android:text="Login"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".8"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/signin_forgetpass_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="forget password?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

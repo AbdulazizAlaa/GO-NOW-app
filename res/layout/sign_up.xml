@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:test_bike="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/sign_up_ProfilePicIV"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/addphoto_icon_signupform" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:orientation="vertical" >
+
+                    <com.andreabaccega.widget.FormEditText
+                        android:id="@+id/sign_up_username_ED"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/signup_textfield_background"
+                        android:ems="10"
+                        android:hint="Username"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0871ba"
+                        android:textColorHint="#0871ba"
+                        test_bike:customRegexp="^[a-z0-9_-]{3,16}$"
+                        test_bike:emptyErrorString="Username Field Can Not be Empty!!"
+                        test_bike:testErrorString="must be {a-z or 0-9 or _-}, no Spaces and from 3-16 character"
+                        test_bike:testType="regexp" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.02"
+            android:background="#bdc3c7" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <com.andreabaccega.widget.FormEditText
+                android:id="@+id/sign_up_email_ED"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/signup_textfield_background"
+                android:ems="10"
+                android:hint="Email"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0871ba"
+                android:textColorHighlight="#0871ba"
+                android:textColorHint="#0871ba"
+                test_bike:emptyErrorString="Email Field Can Not be Empty!!"
+                test_bike:testErrorString="Wrong Email Format"
+                test_bike:testType="email" />
+
+            <com.andreabaccega.widget.FormEditText
+                android:id="@+id/sign_up_passowrd_ED"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/signup_textfield_background"
+                android:ems="10"
+                android:hint="Password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0871ba"
+                android:textColorHint="#0871ba"
+                test_bike:customRegexp="^[a-z0-9_-]{3,18}$"
+                test_bike:emptyErrorString="Password Field Can Not be Empty!!"
+                test_bike:testErrorString="must be {a-z or 0-9 or _-}, no Spaces and from 3-18 character"
+                test_bike:testType="regexp" />
+
+            <TextView
+                android:id="@+id/sign_up_birthdate_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/signup_textfield_background"
+                android:ems="10"
+                android:hint="Birthdate"
+                android:imeOptions="actionNext"
+                android:inputType="date"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0871ba"
+                android:textColorHint="#0871ba" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="30dp"
+            android:background="#bdc3c7" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/sign_up_gender_Tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0871ba" />
+
+            <RadioGroup
+                android:id="@+id/sign_up_gender_RG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/sign_up_gender_maleRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textColor="#0871ba" />
+
+                <RadioButton
+                    android:id="@+id/sign_up_gender_femaleRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textColor="#0871ba" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

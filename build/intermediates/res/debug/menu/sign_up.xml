@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/sign_up_signup_B"
+        android:showAsAction="always"
+        android:title="sign up"
+        android:icon="@drawable/sign_up_signup_selector"
+        />
+
+</menu><!-- From: file:/F:/workspace/android/GO_NOW_THE_PROJECT/res/menu/sign_up.xml -->

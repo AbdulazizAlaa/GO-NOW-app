@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".15"
+            android:gravity="center_vertical|left"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/chat_list_item_profileImg_IV"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/pp_image_profile" />
+
+            <TextView
+                android:id="@+id/chat_list_item_ProfilenameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Nagham Ayman "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0871ba" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".5"
+            android:gravity="right|center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/chat_list_item_num_messagesTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/LightSlateGray"
+                android:padding="5dp"
+                android:text="0"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

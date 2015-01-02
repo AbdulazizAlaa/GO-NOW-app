@@ -1,0 +1,191 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="10dp"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/feeds_tab_itemV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/feeds_list_item_bubble_ContainerF"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1" >
+
+            <!--
+                 <ImageView
+                android:id="@+id/feeds_list_item_bubbleIV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/postbox_bg_rides" />
+            -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/feeds_list_item_textTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/postbox_bg_rides"
+                    android:text="While working on a recent project for Tina Fountain REALTORS an Atlanta, Georgia real estate company we were required to present several page mock ups that needed lots of content, however, our writers were still weeks away from completion. We used ipsum-generator.com to fill in the blanks and create the exact amount of text, and it had the html tags included. A real time saver.
+Katherine R.This lorem ipsumWhile working on a recent project for Tina Fountain REALTORS an Atlanta, Georgia real estate company we were required to present several page mock ups that needed lots of content, however, our writers were still weeks away from completion. We used ipsum-generator.com to fill in the blanks and create the exact amount of text, and it had the html tags included. A real time saver.
+Katherine R.This lorem ipsum"
+                    android:textColor="#0871ba" />
+                <!--
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="vertical" />
+                -->
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/feeds_list_item_imgIv"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="50dp"
+                android:paddingTop="2dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/post_image_feeds"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/feeds_list_item_pageImgIV"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/profilepicture_image_feeds" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".15"
+                        android:gravity="left"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/feeds_list_item_PagenameTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:text="Bescelette"
+                            android:textColor="#0871ba"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/feeds_list_item_PostedphotoTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:singleLine="true"
+                            android:text="Posted a Photo "
+                            android:textColor="#999999" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/feeds_list_item_dayTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight=".85"
+                        android:gravity="right"
+                        android:text="2d"
+                        android:textColor="#999999" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:background="#0871ba" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/feeds_list_item_LikeImgIV"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/like_icon_feeds_selector" />
+
+                    <TextView
+                        android:id="@+id/feeds_list_item_LikeTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="10dp"
+                        android:text="10"
+                        android:textColor="#0871ba" />
+
+                    <ImageView
+                        android:id="@+id/feeds_list_item_CommentImgIV"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/comment_icon_feeds_selector" />
+
+                    <TextView
+                        android:id="@+id/feeds_list_item_CommentTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="5dp"
+                        android:text="10"
+                        android:textColor="#0871ba" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/workspace/android/GO_NOW_THE_PROJECT/res/layout/feeds_tab_item.xml -->

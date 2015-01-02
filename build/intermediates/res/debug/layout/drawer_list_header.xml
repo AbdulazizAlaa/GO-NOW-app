@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#0871ba"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/drawer_list_header_ProfileClickableV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="10dp" >
+
+            <ImageView
+                android:id="@+id/drawer_list_header_profilePicIV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/profilepicture_image_profileofuser" />
+
+            <!-- <ImageView
+                android:id="@+id/drawer_list_header_profilePicFrameIV"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/frame_image_sidemenu" /> -->
+            
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/drawer_list_header_ProfileNameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Large Text"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/workspace/android/GO_NOW_THE_PROJECT/res/layout/drawer_list_header.xml -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle">
+    
+    <gradient 
+        android:startColor="#0871ba"
+        android:endColor="#0871ba"
+        android:angle="90"/>
+   
+</shape>
+<!-- From: file:/F:/workspace/android/GO_NOW_THE_PROJECT/res/drawable-hdpi/list_item_bg_normal.xml -->

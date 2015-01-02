@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test_bike"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="beans.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.test_bike.SplashActivity"
+            android:label="@string/title_activity_splash"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.test_bike.SignInUpActivity"
+            android:label="@string/title_activity_sign_in_up"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.sign_up"
+            android:label="@string/title_activity_sign_up"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.Sign_in"
+            android:label="@string/title_activity_sign_in"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.Settings"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.Store_bike_page"
+            android:label="@string/title_activity_store_bike_page"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.Store"
+            android:label="@string/title_activity_store"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.Home"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.Ride"
+            android:label="@string/title_activity_ride"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.Profile"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.CreatePage"
+            android:label="@string/title_activity_create_page"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.CreateEvent"
+            android:label="@string/title_activity_create_event"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.Page"
+            android:label="@string/title_activity_page"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.Page_more_info"
+            android:label="@string/title_activity_page_more_info"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.PageSearch"
+            android:label="@string/title_activity_page_search"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.Session"
+            android:label="@string/title_activity_session"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.RideAddPost"
+            android:label="@string/title_activity_ride_add_post"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.PageAddPost"
+            android:label="@string/title_activity_page_add_post"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.StoreAddNewBike"
+            android:label="@string/title_activity_store_add_new_bike"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.EventRoute"
+            android:label="@string/title_activity_event_route"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.Test"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.PeopleSearch"
+            android:label="@string/title_activity_people_search"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBDE5hKolIUfPk_6OUU8p7CUNr4vstsVKg" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="com.example.test_bike.Messages"
+            android:label="@string/title_activity_messages"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.example.test_bike.ChatList"
+            android:label="@string/title_activity_chat_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/cycleTheme" >
+        </activity>
+    </application>
+
+</manifest>

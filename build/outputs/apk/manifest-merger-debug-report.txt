@@ -1,0 +1,353 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from android:EditTextFormLibrary:unspecified:7:5
+MERGED from android:google-play-services_lib:unspecified:23:5
+MERGED from android:SlidingMenu:unspecified:7:5
+MERGED from android:ViewPagerIndicator:unspecified:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-feature#0x00020000
+ADDED from AndroidManifest.xml:23:5
+	android:required
+		ADDED from AndroidManifest.xml:25:9
+	android:glEsVersion
+		ADDED from AndroidManifest.xml:24:9
+application
+ADDED from AndroidManifest.xml:27:5
+MERGED from android:EditTextFormLibrary:unspecified:9:5
+MERGED from android:google-play-services_lib:unspecified:25:5
+	android:label
+		ADDED from AndroidManifest.xml:31:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:29:9
+	android:icon
+		ADDED from AndroidManifest.xml:30:9
+	android:theme
+		ADDED from AndroidManifest.xml:32:9
+	android:name
+		ADDED from AndroidManifest.xml:28:10
+activity#com.example.test_bike.SplashActivity
+ADDED from AndroidManifest.xml:33:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:36:13
+	android:label
+		ADDED from AndroidManifest.xml:35:13
+	android:theme
+		ADDED from AndroidManifest.xml:37:13
+	android:name
+		ADDED from AndroidManifest.xml:34:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:38:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:39:17
+	android:name
+		ADDED from AndroidManifest.xml:39:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:41:17
+	android:name
+		ADDED from AndroidManifest.xml:41:27
+activity#com.example.test_bike.SignInUpActivity
+ADDED from AndroidManifest.xml:44:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:47:13
+	android:label
+		ADDED from AndroidManifest.xml:46:13
+	android:theme
+		ADDED from AndroidManifest.xml:48:13
+	android:name
+		ADDED from AndroidManifest.xml:45:13
+activity#com.example.test_bike.sign_up
+ADDED from AndroidManifest.xml:50:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:55:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:53:13
+	android:label
+		ADDED from AndroidManifest.xml:52:13
+	android:theme
+		ADDED from AndroidManifest.xml:54:13
+	android:name
+		ADDED from AndroidManifest.xml:51:13
+activity#com.example.test_bike.Sign_in
+ADDED from AndroidManifest.xml:57:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:62:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:60:13
+	android:label
+		ADDED from AndroidManifest.xml:59:13
+	android:theme
+		ADDED from AndroidManifest.xml:61:13
+	android:name
+		ADDED from AndroidManifest.xml:58:13
+activity#com.example.test_bike.Settings
+ADDED from AndroidManifest.xml:64:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:69:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:67:13
+	android:label
+		ADDED from AndroidManifest.xml:66:13
+	android:theme
+		ADDED from AndroidManifest.xml:68:13
+	android:name
+		ADDED from AndroidManifest.xml:65:13
+activity#com.example.test_bike.Store_bike_page
+ADDED from AndroidManifest.xml:71:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:74:13
+	android:label
+		ADDED from AndroidManifest.xml:73:13
+	android:theme
+		ADDED from AndroidManifest.xml:75:13
+	android:name
+		ADDED from AndroidManifest.xml:72:13
+activity#com.example.test_bike.Store
+ADDED from AndroidManifest.xml:77:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:80:13
+	android:label
+		ADDED from AndroidManifest.xml:79:13
+	android:theme
+		ADDED from AndroidManifest.xml:81:13
+	android:name
+		ADDED from AndroidManifest.xml:78:13
+activity#com.example.test_bike.Home
+ADDED from AndroidManifest.xml:83:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:86:13
+	android:label
+		ADDED from AndroidManifest.xml:85:13
+	android:theme
+		ADDED from AndroidManifest.xml:87:13
+	android:name
+		ADDED from AndroidManifest.xml:84:13
+activity#com.example.test_bike.Ride
+ADDED from AndroidManifest.xml:89:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:92:13
+	android:label
+		ADDED from AndroidManifest.xml:91:13
+	android:theme
+		ADDED from AndroidManifest.xml:93:13
+	android:name
+		ADDED from AndroidManifest.xml:90:13
+activity#com.example.test_bike.Profile
+ADDED from AndroidManifest.xml:95:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:98:13
+	android:label
+		ADDED from AndroidManifest.xml:97:13
+	android:theme
+		ADDED from AndroidManifest.xml:99:13
+	android:name
+		ADDED from AndroidManifest.xml:96:13
+activity#com.example.test_bike.CreatePage
+ADDED from AndroidManifest.xml:101:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:106:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:104:13
+	android:label
+		ADDED from AndroidManifest.xml:103:13
+	android:theme
+		ADDED from AndroidManifest.xml:105:13
+	android:name
+		ADDED from AndroidManifest.xml:102:13
+activity#com.example.test_bike.CreateEvent
+ADDED from AndroidManifest.xml:108:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:113:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:111:13
+	android:label
+		ADDED from AndroidManifest.xml:110:13
+	android:theme
+		ADDED from AndroidManifest.xml:112:13
+	android:name
+		ADDED from AndroidManifest.xml:109:13
+activity#com.example.test_bike.Page
+ADDED from AndroidManifest.xml:115:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:118:13
+	android:label
+		ADDED from AndroidManifest.xml:117:13
+	android:theme
+		ADDED from AndroidManifest.xml:119:13
+	android:name
+		ADDED from AndroidManifest.xml:116:13
+activity#com.example.test_bike.Page_more_info
+ADDED from AndroidManifest.xml:121:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:124:13
+	android:label
+		ADDED from AndroidManifest.xml:123:13
+	android:theme
+		ADDED from AndroidManifest.xml:125:13
+	android:name
+		ADDED from AndroidManifest.xml:122:13
+activity#com.example.test_bike.PageSearch
+ADDED from AndroidManifest.xml:127:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:130:13
+	android:label
+		ADDED from AndroidManifest.xml:129:13
+	android:theme
+		ADDED from AndroidManifest.xml:131:13
+	android:name
+		ADDED from AndroidManifest.xml:128:13
+activity#com.example.test_bike.Session
+ADDED from AndroidManifest.xml:133:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:136:13
+	android:label
+		ADDED from AndroidManifest.xml:135:13
+	android:theme
+		ADDED from AndroidManifest.xml:137:13
+	android:name
+		ADDED from AndroidManifest.xml:134:13
+activity#com.example.test_bike.RideAddPost
+ADDED from AndroidManifest.xml:139:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:144:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:142:13
+	android:label
+		ADDED from AndroidManifest.xml:141:13
+	android:theme
+		ADDED from AndroidManifest.xml:143:13
+	android:name
+		ADDED from AndroidManifest.xml:140:13
+activity#com.example.test_bike.PageAddPost
+ADDED from AndroidManifest.xml:146:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:151:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:149:13
+	android:label
+		ADDED from AndroidManifest.xml:148:13
+	android:theme
+		ADDED from AndroidManifest.xml:150:13
+	android:name
+		ADDED from AndroidManifest.xml:147:13
+activity#com.example.test_bike.StoreAddNewBike
+ADDED from AndroidManifest.xml:153:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:158:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:156:13
+	android:label
+		ADDED from AndroidManifest.xml:155:13
+	android:theme
+		ADDED from AndroidManifest.xml:157:13
+	android:name
+		ADDED from AndroidManifest.xml:154:13
+activity#com.example.test_bike.EventRoute
+ADDED from AndroidManifest.xml:160:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:163:13
+	android:label
+		ADDED from AndroidManifest.xml:162:13
+	android:theme
+		ADDED from AndroidManifest.xml:164:13
+	android:name
+		ADDED from AndroidManifest.xml:161:13
+activity#com.example.test_bike.Test
+ADDED from AndroidManifest.xml:166:9
+	android:label
+		ADDED from AndroidManifest.xml:168:13
+	android:name
+		ADDED from AndroidManifest.xml:167:13
+activity#com.example.test_bike.PeopleSearch
+ADDED from AndroidManifest.xml:170:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:173:13
+	android:label
+		ADDED from AndroidManifest.xml:172:13
+	android:theme
+		ADDED from AndroidManifest.xml:174:13
+	android:name
+		ADDED from AndroidManifest.xml:171:13
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:177:9
+	android:name
+		ADDED from AndroidManifest.xml:178:13
+	android:value
+		ADDED from AndroidManifest.xml:179:13
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from AndroidManifest.xml:180:9
+	android:name
+		ADDED from AndroidManifest.xml:181:13
+	android:value
+		ADDED from AndroidManifest.xml:182:13
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from AndroidManifest.xml:183:9
+	android:name
+		ADDED from AndroidManifest.xml:184:13
+	android:value
+		ADDED from AndroidManifest.xml:185:13
+activity#com.example.test_bike.Messages
+ADDED from AndroidManifest.xml:187:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:192:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:190:13
+	android:label
+		ADDED from AndroidManifest.xml:189:13
+	android:theme
+		ADDED from AndroidManifest.xml:191:13
+	android:name
+		ADDED from AndroidManifest.xml:188:13
+activity#com.example.test_bike.ChatList
+ADDED from AndroidManifest.xml:194:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:197:13
+	android:label
+		ADDED from AndroidManifest.xml:196:13
+	android:theme
+		ADDED from AndroidManifest.xml:198:13
+	android:name
+		ADDED from AndroidManifest.xml:195:13

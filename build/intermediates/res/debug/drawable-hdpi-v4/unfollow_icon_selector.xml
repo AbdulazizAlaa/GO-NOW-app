@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/unfollowsel_icon_pageforuser" android:state_pressed="true"/>
+    <item android:drawable="@drawable/unfollow_icon_pageforuser" android:state_pressed="false"/>
+</selector>
+<!-- From: file:/F:/workspace/android/GO_NOW_THE_PROJECT/res/drawable-hdpi/unfollow_icon_selector.xml -->

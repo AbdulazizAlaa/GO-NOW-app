@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/people_icon_sidemenu"
+        android:right="1dp"
+        android:left="5dp"/>
+
+
+</layer-list><!-- From: file:/F:/workspace/android/GO_NOW_THE_PROJECT/res/drawable-hdpi/people_icon.xml -->
